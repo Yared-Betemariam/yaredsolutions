@@ -8,12 +8,13 @@ import { cn } from "@/lib/utils";
 const font = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Yared Bet.",
+  title: "Yared Solutions.",
   description:
     "I'm a software engineer, who has +3 years experience working on full-stack websites",
   icons: [
     {
       rel: "icon",
+      href: "/logo.png",
       url: "/logo.png",
     },
   ],
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("overflow-x-hidden", font.className)}>
-        <div className="pattern fixed inset-0 opacity-[0.015]" />
+        <div className="pattern fixed inset-0 opacity-[0.023]" />
         <Nav />
         {children}
         <Footer />

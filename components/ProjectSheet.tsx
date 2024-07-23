@@ -9,22 +9,20 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
   return (
     <div
       id={`workbox${project.id}`}
-      className="shadow-xl flex h-80 flex-col rounded-none rounded-b-xl"
+      className="shadow-2xl flex h-[28rem] flex-col rounded-none rounded-b-2xl"
     >
-      <div className="relative h-full w-full rounded-xl">
+      <div className="relative h-full w-full rounded-2xl">
         <Image
           src={project.photos[0]}
           alt={project.title}
           fill
-          className="object-center object-cover rounded-t-xl"
+          className="object-center object-cover rounded-t-2xl"
         />
       </div>
-      <div className="flex items-center justify-between px-6 py-4 group/box gap-2  duration-300 transition-all bg-white rounded-b-xl">
+      <div className="flex items-center justify-between px-6 py-4 group/box gap-2  duration-300 transition-all bg-white rounded-b-2xl">
         <div className="flex flex-col">
-          <p className="text-base md:text-lg text-orange-800 font-bold">
-            {project.title}
-          </p>
-          <p className="text-sm">{project.desc}</p>
+          <p className="text-lg    capitalize font-bold">{project.title}</p>
+          <p className="text-base">{project.desc}</p>
         </div>
         <Link target="_blank" href={project.url || "#"}>
           <SquareArrowOutUpRight

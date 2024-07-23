@@ -26,9 +26,9 @@ const ContactSection = () => {
   return (
     <section
       id="contact"
-      className="wrapper py-16 pb-24 flex flex-col items-center justify-center gap-10 text-gray-800 relative overflow-y-hidden"
+      className="wrapper py-20 flex flex-col items-center justify-center gap-10 text-gray-800 relative overflow-y-hidden"
     >
-      <span className="bg-circle bg-no-repeat -bottom-[20rem] right-0 opacity-10 absolute w-[40rem] -z-10 h-[40rem] bg-contain bg-center" />
+      <span className="bg-circle bg-no-repeat -bottom-[20rem] right-0 opacity-[0.05] absolute w-[40rem] -z-10 h-[40rem] bg-contain bg-center" />
       <div className="flex flex-col gap-4 items-center text-center justify-center max-w-md mx-auto">
         <h2 className={fontWrapper("text-5xl md:text-6xl font-bold mx-auto")}>
           Get in <span className="text-primary brightness-125">touch</span>

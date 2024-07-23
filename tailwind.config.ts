@@ -74,6 +74,7 @@ const config = {
       },
       backgroundImage: {
         pattern: "url('/pattern.png')",
+        pattern2: "url('/pattern2.png')",
         circle: "url('/circle.png')",
       },
       screens: {
