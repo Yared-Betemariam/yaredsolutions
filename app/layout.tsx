@@ -10,7 +10,7 @@ const font = DM_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Yared Solutions.",
   description:
-    "I'm a software engineer, who has +3 years experience working on full-stack websites",
+    "I'm a software engineer, who has +2 years experience working on full-stack websites",
   icons: [
     {
       rel: "icon",
