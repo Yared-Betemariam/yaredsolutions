@@ -30,7 +30,7 @@ const ContactSection = () => {
     >
       <span className="bg-circle bg-no-repeat -bottom-[20rem] right-0 opacity-[0.05] absolute w-[40rem] -z-10 h-[40rem] bg-contain bg-center" />
       <div className="flex flex-col gap-4 items-center text-center justify-center max-w-md mx-auto">
-        <h2 className={fontWrapper("text-5xl md:text-6xl font-bold mx-auto")}>
+        <h2 className={fontWrapper("h2 mx-auto")}>
           Get in <span className="text-primary brightness-125">touch</span>
         </h2>
         <p className="opacity-80 text-base md:text-lg">

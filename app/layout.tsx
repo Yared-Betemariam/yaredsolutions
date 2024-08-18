@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("overflow-x-hidden", font.className)}>
-        <div className="pattern fixed inset-0 opacity-[0.023]" />
+        <div className="pattern fixed inset-0 opacity-[0.013]" />
         <Nav />
         {children}
         <Footer />

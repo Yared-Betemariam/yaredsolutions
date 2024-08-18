@@ -28,8 +28,8 @@ const TestimonialsSection = () => {
       <section id="testimonials" className="wrapper  flex flex-col relative">
         <span className="bg-circle bg-no-repeat -top-[10rem] -left-[10rem] opacity-[0.07] -z-10 absolute w-[40rem] h-[40rem] bg-contain bg-center" />
         <div className="flex flex-col py-20 gap-4">
-          <h2 className={fontWrapper("text-5xl md:text-6xl font-bold mx-auto")}>
-            Few <span className="text-primary brightness-125">clients</span>
+          <h2 className={fontWrapper("h2 mx-auto")}>
+            Client <span className="text-primary brightness-125">reviews</span>
           </h2>
           <p className="mx-auto text-base md:text-lg opacity-80 mb-12">
             Here are some of my past clients
