@@ -3,7 +3,7 @@ export const works = [
     id: 1,
     desc: "I build this website for an agency.",
     title: "An agency website",
-    url: "https://bazidesigns.vercel.app/",
+    url: "https://yonile.vercel.app/",
     photos: ["/works/yd.png"],
   },
   {
@@ -17,7 +17,14 @@ export const works = [
     id: 3,
     desc: "A personal portfolio website made for web-developer",
     title: "Portfolio website",
-    url: "https://viewtb.vercel.app/",
+    url: "https://portwebtemp.vercel.app/",
     photos: ["/works/pp.png"],
+  },
+  {
+    id: 4,
+    desc: "An digital marketing website build for a client.",
+    title: "Idigital marketing",
+    url: "https://idigitalmarketing.vercel.app/",
+    photos: ["/works/idigital.png"],
   },
 ];

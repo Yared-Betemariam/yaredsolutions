@@ -9,7 +9,7 @@ const ProjectSheet = ({ project }: { project: (typeof works)[0] }) => {
   return (
     <div
       id={`workbox${project.id}`}
-      className="shadow-2xl flex h-[28rem] flex-col rounded-none rounded-b-2xl"
+      className="shadow-2xl shadow-zinc-900/25 flex h-[28rem] flex-col rounded-none rounded-b-2xl"
     >
       <div className="relative h-full w-full rounded-2xl">
         <Image

@@ -8,6 +8,7 @@ const WorksSection = () => {
     <section id="works" className="wrapper flex flex-col relative">
       <span className="bg-circle bg-no-repeat top-[10rem] right-[20rem] opacity-[0.09] absolute w-[40rem] -z-10 h-[40rem] bg-contain bg-center" />
       <div className="flex flex-col py-20 gap-4">
+        <span className="subheader">Portfolio</span>
         <h2 className={fontWrapper("h2 mx-auto")}>
           My Past <span className="text-primary brightness-125">works</span>
         </h2>

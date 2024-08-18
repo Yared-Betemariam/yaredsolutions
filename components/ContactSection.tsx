@@ -4,6 +4,7 @@ import {
   FaArrowRight,
   FaGithub,
   FaInstagram,
+  FaTelegram,
   FaTwitter,
 } from "react-icons/fa6";
 
@@ -11,8 +12,8 @@ import {
 const ContactSection = () => {
   const socialLinks = [
     {
-      icon: <FaGithub />,
-      link: "https://github.com/Yared-Betemariam",
+      icon: <FaTelegram />,
+      link: "https://t.me/yared_bet",
     },
     {
       icon: <FaTwitter />,
@@ -20,7 +21,7 @@ const ContactSection = () => {
     },
     {
       icon: <FaInstagram />,
-      link: "https://www.instagram.com/yaredoray/",
+      link: "https://www.instagram.com/yared_bet/",
     },
   ];
   return (
@@ -30,6 +31,7 @@ const ContactSection = () => {
     >
       <span className="bg-circle bg-no-repeat -bottom-[20rem] right-0 opacity-[0.05] absolute w-[40rem] -z-10 h-[40rem] bg-contain bg-center" />
       <div className="flex flex-col gap-4 items-center text-center justify-center max-w-md mx-auto">
+        <span className="subheader">contact me</span>
         <h2 className={fontWrapper("h2 mx-auto")}>
           Get in <span className="text-primary brightness-125">touch</span>
         </h2>
@@ -45,7 +47,7 @@ const ContactSection = () => {
             className="group-hover/boxhs:scale-125 transform duration-300 transition-all"
           />
           <span className="font-semibold drop-shadow-md">
-            yared.bete@gmail.com
+            yaredbelaybtm@gmail.com
           </span>
         </div>
         <FaArrowRight className="group-hover/boxhs:translate-x-2 transform duration-300 transition-all" />

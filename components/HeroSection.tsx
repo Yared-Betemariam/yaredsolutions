@@ -23,7 +23,7 @@ const HeroSection = () => {
             hello, my name is Yared
           </p> */}
           <p className="uppercase text-sm md:text-lg text-primary/75 tracking-[.5em]">
-            hello, I' yared
+            hello, I am yared
           </p>
           {/* <span
             id="name"
